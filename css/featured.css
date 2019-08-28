@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 135px;
 }
 
 .featured .title {
@@ -34,6 +35,7 @@
 
 .featured .caption {
   color: rgba(34, 34, 34, 0.7);
+  font-size: 18px;
   line-height: 1.555em;
 }
 

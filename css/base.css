@@ -2,4 +2,12 @@ body {
   font-family: "Fira Sans", sans-serif;
   background-color: #f4f4f4;
   min-width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  color: rgb (34, 34, 34, 0.7);
+  font-size: 18px;
+  line-height: 1.555em;
 }
