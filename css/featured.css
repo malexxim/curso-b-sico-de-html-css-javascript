@@ -1,0 +1,88 @@
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featured .title {
+  font-size: 60px;
+  line-height: 1.166em;
+  letter-spacing: -1px;
+  font-weight: bold;
+  width: 540px;
+}
+
+.featured .social {
+  display: flex;
+  align-self: flex-end;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.featured .icon {
+  width: 16px;
+}
+
+.featured .wrapper-photo {
+  margin-top: 90px;
+}
+
+.featured .photo {
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+.featured .caption {
+  color: rgba(34, 34, 34, 0.7);
+  line-height: 1.555em;
+}
+
+/* 0 - 800 pixel de tela */
+@media (max-width: 800px) {
+  .featured .title {
+    width: 60vw;
+    font-size: 54px;
+  }
+}
+
+/* 800 - 734 pixel de tela */
+@media (max-width: 734px) {
+  .featured .title {
+    font-size: 48px;
+  }
+}
+
+/* 734 - 649 pixel de tela */
+@media (max-width: 649px) {
+  .featured .title {
+    font-size: 42px;
+  }
+}
+
+/* 649 - 565 pixel de tela */
+@media (max-width: 565px) {
+  .featured .title {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .featured .social {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .featured .wrapper-photo {
+    margin-top: 45px;
+  }
+
+  .featured .photo {
+    margin-bottom: 20px;
+  }
+}
+
+/* 565 - 357 pixel de tela */
+@media (max-width: 357px) {
+  .featured .title {
+    font-size: 34px;
+  }
+}

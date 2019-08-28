@@ -2,11 +2,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 1110px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 4vh;
+  margin-bottom: 126px;
 }
 
 .menu {
@@ -65,5 +62,11 @@
   }
   100% {
     transform: scaleX(1);
+  }
+}
+
+@media (max-width: 565px) {
+  .header {
+    margin-bottom: 80px;
   }
 }
